@@ -158,7 +158,35 @@ span.name {
     margin: 20px;
 }
 
+figcaption {
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+}
 
+.html5 {
+    color: #de572b;
+}
+
+.css3 {
+    color: #346cb5;;
+}
+
+.javascript {
+    color: #f0e432;;
+}
+
+.react {
+    color:  #71d7fa;;
+}
+
+.wordpress {
+    color: #33729a;;
+}
+
+.bootstrap {
+    color: #72489f;;
+}
 
 .projects {
     
