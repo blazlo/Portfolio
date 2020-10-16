@@ -18,6 +18,9 @@
     
 }
 
+body {
+    min-width: 450px;
+}
 
 header, main, footer {
     width: 100%;
@@ -337,7 +340,5 @@ i{
         display: inline;
         padding: .5rem;
     }
-    body {
-        max-width: 480px;
-    }
 }
+
