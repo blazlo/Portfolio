@@ -19,7 +19,7 @@
 }
 
 body {
-    min-width: 450px;
+    min-width: 375px;
 }
 
 header, main, footer {
@@ -70,15 +70,20 @@ h1 {
     animation-duration: 2s;
  }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 ul {
     text-decoration: none;
     text-align: center;
 }
 
 li {
-    display: inline;
+    display: inline-block;
     padding: 1rem;
-    
 }
 
 
@@ -335,10 +340,4 @@ i{
     }
 }
 
-@media screen and (max-width: 480px) {
-    li {
-        display: inline;
-        padding: .5rem;
-    }
-}
 
