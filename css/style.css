@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
-    font-size: ;
     }
 
 .content {
@@ -109,6 +108,9 @@ h1 {
      border: none;
 }
 
+button:focus {
+     outline: none;
+}
 
 ul {
     text-decoration: none;
@@ -171,7 +173,6 @@ span.name {
      color: rgb(254, 114, 141);
 }
 
-
 .technologies h1, .projects h1, .contact h1 {
     color: white;
     text-shadow: 1px 1px 5px #61dafb;
@@ -184,7 +185,6 @@ span.name {
     justify-content: center;
     margin: 0 auto;
 }
-
 
 .icon {
     width: 100px;
@@ -222,8 +222,6 @@ figcaption {
 .bootstrap {
     color: #9D7ED5;;
 }
-
-
 
 .project {
     width: calc(100% - 20px);
